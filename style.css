@@ -1,0 +1,62 @@
+/*
+Error: Invalid CSS after "$black": expected selector or at-rule, was ": #2a2a2a"
+        on line 2 of sass/base/_colors.scss
+        from line 30 of sass/style.scss
+
+1: $light-blue: #19a0c4
+2: $black: #2a2a2a
+3: $dark-green: #0c8a44
+4: $orange: #ea8723
+5: $red: #bf1e2e
+
+Backtrace:
+sass/base/_colors.scss:2
+sass/style.scss:30
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1278:in `expected'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1208:in `expected'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:42:in `parse'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:414:in `_to_tree'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:321:in `to_tree'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:88:in `block in with_import'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:88:in `with_import'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `block in with_base'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `with_base'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/root_node.rb:20:in `render'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:290:in `render'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:464:in `update_stylesheet'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `each'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:294:in `watch'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin.rb:109:in `method_missing'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/exec/base.rb:52:in `parse'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/exec/base.rb:19:in `parse!'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/bin/sass:13:in `<top (required)>'
+C:/tools/ruby25/bin/sass:23:in `load'
+C:/tools/ruby25/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$black\": expected selector or at-rule, was \": #2a2a2a\"\A         on line 2 of sass/base/_colors.scss\A         from line 30 of sass/style.scss\A \A 1: $light-blue: #19a0c4\A 2: $black: #2a2a2a\A 3: $dark-green: #0c8a44\A 4: $orange: #ea8723\A 5: $red: #bf1e2e"; }
