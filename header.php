@@ -21,30 +21,25 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'blueflowermedia' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<nav id="site-navigation" class="main-navigation fixed container-navbar">
-      <!-- navbar left -->
-			<div class="nav-left">
-        <?php the_custom_logo(); ?>
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3 class="site-title"><?php bloginfo( 'name' ); ?></h3></a>
-      </div>
+
       <!-- navbar middle -->
       <div class="nav-middle">
-        <?php
-          wp_nav_menu( array(
-            'theme_location' => 'menu-1',
-            'menu_id'        => 'primary-menu',
-          ) );
-        ?>
+				<a href="#">HOME</a>
+				<a href="#">BIO</a>
+				<a href="#">PORTFOLIO</a>
+				<a href="#">CONTACT</a>
+				<!-- <a id = fontawesome href="#"><i class="fab fa-instagram"></i></a>
+				<a id = fontawesome href="#"><i class="fab fa-youtube"></i></a> -->
       </div>
       <!-- navbar right -->
       <div class="nav-right">
-        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blueflowermedia' ); ?></button>
-				<a href=""><button class="nav-contact" type="button" name="button">Contact Us</button></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-youtube"></i></a>
       </div>
-		</nav>
+
 	</header>
 
-	<div id="content" class="site-content">
+</div>
+</body>
