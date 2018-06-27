@@ -1,32 +1,33 @@
 #masthead{
   height: auto;
   display: flex;
-
 }
 
 .nav-middle{
-  //display: flex;
   flex: 1;
-//  max-width: 1500px;
-  margin:0 0 0 10vw;
-  padding: 5vw 0vw 5vw 5vw;
-  // text-align: center;
-  //align-items: stretch;
+  padding: 5.5vw 0vw 5.5vw 15vw;
+  text-align: center;
   a{
-    //flex: 1;
     color: $white;
     text-decoration: none;
     font-size: 1.8vw;
     padding: 0 5%;
   }
+  @media screen and (max-width: 600px){
+    padding: 5.5vw 0vw 5.5vw 0vw;
+    a{
+      color: $white;
+      text-decoration: none;
+      font-size: 3vw;
+      padding: 0 1%;
+    }
+  }
 }
 
 .nav-right{
-  justify-content: flex-end;
-  margin: 0 50px 0 0;
   a{
-      padding: 0 15px 0 0;
-      zoom:3;
+      padding: 0 10px 0 0;
+      font-size: 3vw;
       color: $white;
   }
   padding: 5vw 5vw 5vw 0;

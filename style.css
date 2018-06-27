@@ -1321,25 +1321,28 @@ button.nav-contact {
 
 .nav-middle {
   flex: 1;
-  margin: 0 0 0 10vw;
-  padding: 5vw 0vw 5vw 5vw; }
+  padding: 5.5vw 0vw 5.5vw 15vw;
+  text-align: center; }
   .nav-middle a {
     color: #fff;
     text-decoration: none;
     font-size: 1.8vw;
     padding: 0 5%; }
+  @media screen and (max-width: 600px) {
+    .nav-middle {
+      padding: 5.5vw 0vw 5.5vw 0vw; }
+      .nav-middle a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 3vw;
+        padding: 0 1%; } }
 
 .nav-right {
-  justify-content: flex-end;
-  margin: 0 50px 0 0;
   padding: 5vw 5vw 5vw 0; }
   .nav-right a {
-    padding: 0 15px 0 0;
-    zoom: 3;
+    padding: 0 10px 0 0;
+    font-size: 3vw;
     color: #fff; }
-
-* {
-  box-sizing: border-box; }
 
 #video-background {
   /*  making the video fullscreen  */
@@ -1351,3 +1354,38 @@ button.nav-contact {
   width: auto;
   height: auto;
   z-index: -100; }
+
+.homepage-container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto 0vw auto;
+  max-width: 1200px;
+  padding-top: 10vw;
+  padding-bottom: 7vw;
+  text-align: center; }
+  .homepage-container .homepage-top h1 {
+    color: #fff;
+    font-size: 6vw; }
+  .homepage-container .homepage-middle {
+    width: 65%;
+    margin: 0 auto; }
+    .homepage-container .homepage-middle p {
+      color: #fff;
+      font-size: .8vw; }
+  .homepage-container .homepage-bottom {
+    padding: 50px 0px; }
+    .homepage-container .homepage-bottom a {
+      font-size: 1vw;
+      padding: 0 20px;
+      color: #fff;
+      text-decoration: none; }
+
+#homepage > div > div.homepage-bottom > a:nth-child(3) {
+  background-color: #00AEEF;
+  border-radius: 10px; }
+
+#bio .bg-image {
+  background-image: url("./images/Free.jpg");
+  height: 100vh;
+  background-size: cover; }

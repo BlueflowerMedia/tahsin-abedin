@@ -26,18 +26,32 @@
 
       <!-- navbar middle -->
       <div class="nav-middle">
-				<a href="#">HOME</a>
-				<a href="#">BIO</a>
-				<a href="#">PORTFOLIO</a>
-				<a href="#">CONTACT</a>
+				<a href="home">HOME</a>
+				<a href="bio">BIO</a>
+				<a href="portfolio">PORTFOLIO</a>
+				<a href="contact">CONTACT</a>
 				<!-- <a id = fontawesome href="#"><i class="fab fa-instagram"></i></a>
 				<a id = fontawesome href="#"><i class="fab fa-youtube"></i></a> -->
-      </div>
+				<div class="hamburger" id="hamburger-9">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</div>
+
+			</div>
       <!-- navbar right -->
       <div class="nav-right">
 				<a href="#"><i class="fab fa-instagram"></i></a>
 				<a href="#"><i class="fab fa-youtube"></i></a>
       </div>
+
+			<!-- <div id="dropdown-menu" class="dropdown">
+			  <ul>
+			   <li ><a href="#about">About</a></li>
+			   <li><a href="#objectives">Objectives</a></li>
+			   <li><a href="#contacts">Contact</a></li>
+			  </ul>
+			</div> -->
 
 	</header>
 
