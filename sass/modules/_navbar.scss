@@ -5,30 +5,81 @@
 
 .nav-middle{
   flex: 1;
-  padding: 5.5vw 0vw 5.5vw 15vw;
+  padding: 3vw 0vw 3vw 15vw;
   text-align: center;
   a{
-    color: $white;
     text-decoration: none;
-    font-size: 1.8vw;
-    padding: 0 5%;
+    font-size: 1.5vw;
+    padding: 0 1%;
+    margin: 0 4%;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    //background-color: #000;
   }
+  a:hover{
+    //color: #3399ff;
+  }
+
+  a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(.9);
+  transform: scaleX(.9);
+}
+
+
   @media screen and (max-width: 600px){
     padding: 5.5vw 0vw 5.5vw 0vw;
     a{
-      color: $white;
       text-decoration: none;
       font-size: 3vw;
       padding: 0 1%;
+      margin: 0 1%;
+
     }
   }
 }
 
 .nav-right{
+    padding: 2.2vw 5vw 3vw 0;
+    position: relative;
+
   a{
       padding: 0 10px 0 0;
-      font-size: 3vw;
-      color: $white;
+      font-size: 2.5vw;
+      @media(max-width: 600px){
+        font-size: 5vw;
+        line-height: 10vw;
+      }
   }
-  padding: 5vw 5vw 5vw 0;
+  a:hover{
+    color:#ff0000;
+  }
+}
+
+#masthead > div.nav-right > a:nth-child(1):hover{
+  color:#3FA9F5;
+}
+
+.hamburger{
+  color: $white;
+}
+
+.dropdown{
+  text-decoration: none;
 }

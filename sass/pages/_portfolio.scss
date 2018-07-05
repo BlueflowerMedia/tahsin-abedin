@@ -1,0 +1,29 @@
+.background{
+  //background-image: url("./images/image-bg.png");
+  .portfolio-container{
+    h1{
+      margin: 1vw 0 !important;
+      @media  (max-width: 450px){
+        font-size: 20px;
+      }
+    }
+    .photo-container, .video-container{
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 70%;
+      margin: 0 auto;
+      max-width: 1200px;
+      padding-top: 2vw;
+      padding-bottom: 2vw;
+      text-align: center;
+    }
+  }
+}
+
+// #player_uid_320005703_1{
+//   width: 80%;
+// }
+
+#_ytid_66579{
+  width: 1000px;
+}

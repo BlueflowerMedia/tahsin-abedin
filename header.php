@@ -26,31 +26,33 @@
 
       <!-- navbar middle -->
       <div class="nav-middle">
-				<a href="home">HOME</a>
-				<a href="bio">BIO</a>
-				<a href="portfolio">PORTFOLIO</a>
-				<a href="contact">CONTACT</a>
-				<!-- <a id = fontawesome href="#"><i class="fab fa-instagram"></i></a>
-				<a id = fontawesome href="#"><i class="fab fa-youtube"></i></a> -->
-				<div class="hamburger" id="hamburger-9">
-					<span class="line"></span>
-					<span class="line"></span>
-					<span class="line"></span>
-				</div>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a>
+				<a href="<?php echo get_permalink(get_page_by_path( 'bio' )); ?>">BIO</a>
+				<a href="<?php echo get_permalink(get_page_by_path( 'portfolio' )); ?>">PORTFOLIO</a>
+				<a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>">CONTACT</a>
+
+
 
 			</div>
       <!-- navbar right -->
       <div class="nav-right">
-				<a href="#"><i class="fab fa-instagram"></i></a>
-				<a href="#"><i class="fab fa-youtube"></i></a>
+				<a href="https://www.instagram.com/tahsinabedin"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.youtube.com/channel/UC5vR-9bNQXbpd4pjtPgewKA"><i class="fab fa-youtube"></i></a>
       </div>
 
-			<!-- <div id="dropdown-menu" class="dropdown">
+			<!-- <div class="hamburger" id="hamburger-9">
+				<span class="line"></span>
+				<span class="line"></span>
+				<span class="line"></span>
+			</div>
+
+			<div id="dropdown-menu" class="dropdown">
 			  <ul>
-			   <li ><a href="#about">About</a></li>
-			   <li><a href="#objectives">Objectives</a></li>
-			   <li><a href="#contacts">Contact</a></li>
-			  </ul>
+			   <li ><a href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a></li>
+			   <li><a href="<?php echo get_permalink(get_page_by_path( 'bio' )); ?>">BIO</a></li>
+			   <li><a href="<?php echo get_permalink(get_page_by_path( 'portfolio' )); ?>">PORTFOLIO</a></li>
+				 <li><a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>">CONTACT</a></li>
+				</ul>
 			</div> -->
 
 	</header>
