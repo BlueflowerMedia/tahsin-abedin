@@ -11,8 +11,58 @@
     z-index: -100;
     .contact-container{
       margin: 250px 100px;
-
     }
+  }
+}
+
+#section-contact-forms .container {
+  color: white;
+  margin: 0;
+  padding: 0 auto;
+
+  h2 {
+    margin-top: 40px;
+  }
+  .contact-info {
+    i {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 2rem;
+      font-family: $font-secondary;
+    }
+  }
+
+  .forms input {
+    margin: 4px;
+    min-width: 100%;
+    border-radius: 0;
+    border-color: #44C5E6;
+    font-family: $font-secondary;
+    padding: .6vw;
+  }
+  .wpcf7-textarea{
+    border-radius: 0;
+    border-color: #44C5E6;
+    padding: .6vw;
+    font-family: $font-secondary;
+  }
+  .wpcf7-submit {
+    background-color: #fff;
+    font-size: 1.5rem;
+    border: none;
+    width: 10vw;
+    font-family: $font-secondary;
+    padding: 1vw;
+    outline: none;
+    @media screen and (max-width: 600px){
+      width: 27vw;
+      border-radius: 30px;
+    }
+  }
+  .wpcf7-submit:hover{
+    background-color: #44C5E6;
   }
 
 }
