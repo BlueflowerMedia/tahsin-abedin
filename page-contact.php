@@ -15,6 +15,7 @@
  <div class="container flex-row">
 
        <div class="contact-info flex1">
+         <h4>Did u like my work?</h4>
          <h2>WANT TO WORK WITH ME?</h2>
          <p>
            <a href=""><i class="fas fa-mobile-alt" style="color:#fff;padding:10px;margin-top:100px;"></i></a>

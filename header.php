@@ -38,6 +38,7 @@
       <div class="nav-right">
 				<a href="https://www.instagram.com/tahsinabedin"><i class="fab fa-instagram"></i></a>
 				<a href="https://www.youtube.com/channel/UC5vR-9bNQXbpd4pjtPgewKA"><i class="fab fa-youtube"></i></a>
+				<!-- <a href="https://www.facebook.com/tmillz.bsm"><i class="fab fa-facebook-square"></i></a> -->
       </div>
 
 			<!-- <div class="hamburger" id="hamburger-9">

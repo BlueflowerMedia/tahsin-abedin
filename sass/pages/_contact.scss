@@ -22,6 +22,9 @@
 
   h2 {
     margin-top: 40px;
+    @media (max-width: 600px){
+      margin-top: 20px;
+    }
   }
   .contact-info {
     i {
@@ -34,8 +37,24 @@
     }
   }
 
+  .one-row {
+    display: flex;
+    flex-flow: row wrap;
+
+    .one-half {
+      flex: 1;
+      margin: 10px 0px;
+    }
+    .first{
+      margin-right: 30px;
+      @media (max-width: 600px){
+        margin-right: 0px;
+        flex: 1;
+      }
+    }
+ }
   .forms input {
-    margin: 4px;
+    //margin: 4px;
     min-width: 100%;
     border-radius: 0;
     border-color: #44C5E6;
@@ -47,6 +66,13 @@
     border-color: #44C5E6;
     padding: .6vw;
     font-family: $font-secondary;
+
+  }
+#wpcf7-f99-o1 > form > div:nth-child(3) > span > input{
+  margin-top: 10px;
+}
+  #wpcf7-f99-o1 > form > div:nth-child(3) > div > p:nth-child(1){
+        margin: 0 0 !important;
   }
   .wpcf7-submit {
     background-color: #fff;
