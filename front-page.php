@@ -16,7 +16,7 @@
     </div>
     <div class="homepage-middle">
       <p>Choose a benefit from your category of choice and use your Virgin Mobile number
-         to redeem it. If you're redeeming a discount coupon or promo
+        to redeem it. If you're redeeming a discount coupon or promo
       </p>
     </div>
     <div class="homepage-bottom">

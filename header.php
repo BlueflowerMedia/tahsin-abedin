@@ -33,12 +33,15 @@
 
 		<div id="dropdown-menu" class="dropdown">
 			<ul>
+			 <li>Tahsin Abedin</li>
 			 <li ><a href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a></li>
 			 <li><a href="<?php echo get_permalink(get_page_by_path( 'bio' )); ?>">BIO</a></li>
 			 <li><a href="<?php echo get_permalink(get_page_by_path( 'portfolio' )); ?>">PORTFOLIO</a></li>
 			 <li><a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>">CONTACT</a></li>
-			 <li><a href="https://www.instagram.com/tahsinabedin"><i class="fab fa-instagram"></i></a></li>
-			 <li><a href="https://www.youtube.com/channel/UC5vR-9bNQXbpd4pjtPgewKA"><i class="fab fa-youtube"></i></a></li>
+			 <li>
+				 <a href="https://www.instagram.com/tahsinabedin"><i class="fab fa-instagram"></i></a>
+				 <a href="https://www.youtube.com/channel/UC5vR-9bNQXbpd4pjtPgewKA"><i class="fab fa-youtube"></i></a>
+				</li>
 			</ul>
 		</div>
 		<div class="hamburger" id="hamburger-9">

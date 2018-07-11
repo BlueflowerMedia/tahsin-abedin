@@ -1375,20 +1375,14 @@ button.nav-contact {
 #masthead > div.nav-right > a:nth-child(2):hover {
   color: #ff0000; }
 
-.hamburger {
+#hamburger-9 {
   color: #fff; }
-
-.dropdown ul li {
-  list-style-type: none; }
-  .dropdown ul li a {
-    text-decoration: none; }
-
-@media (min-width: 800px) {
-  #hamburger-9 {
-    display: none; } }
+  @media (min-width: 800px) {
+    #hamburger-9 {
+      display: none; } }
 
 .dropdown {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -1406,15 +1400,23 @@ button.nav-contact {
     padding-left: 0 !important; }
     .dropdown ul li {
       color: #2a2a2a;
-      font-size: 35px; }
+      font-size: 30px;
+      margin: 40px 10px;
+      list-style-type: none; }
       .dropdown ul li a {
-        color: #2a2a2a; }
+        color: #2a2a2a;
+        font-size: 20px;
+        text-decoration: none; }
       .dropdown ul li a:hover {
         opacity: .8;
         text-shadow: 1px 1px 2px #fff, 0 0 25px #2a2a2a; }
 
+#dropdown-menu > ul > li:nth-child(6) > a:nth-child(1) > i,
+#dropdown-menu > ul > li:nth-child(6) > a:nth-child(2) > i {
+  font-size: 30px; }
+
 #dropdown-menu > ul > li:nth-child(1) {
-  padding-top: 10%;
+  padding-top: 20%;
   color: #2a2a2a; }
 
 .drop {
@@ -1449,7 +1451,6 @@ button.nav-contact {
   cursor: pointer; }
 
 #hamburger-9 {
-  position: relative;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
@@ -1540,8 +1541,7 @@ button.nav-contact {
   .homepage-container .homepage-top h1 {
     font-size: 6vw;
     color: #FFFFFF;
-    -webkit-animation: colorchange 20s infinite alternate;
-    text-shadow: 0 0 10px #fff; }
+    -webkit-animation: colorchange 20s infinite alternate; }
 @-webkit-keyframes colorchange {
   0% {
     color: #F40000; }
@@ -1572,7 +1572,7 @@ button.nav-contact {
       color: #fff;
       font-size: 1vw;
       font-family: "Raleway", sans-serif;
-      text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; }
+      text-shadow: 1px 1px 2px black; }
   .homepage-container .homepage-bottom {
     padding: 50px 0px; }
     .homepage-container .homepage-bottom a {
@@ -1728,8 +1728,10 @@ button.nav-contact {
   max-width: 1200px;
   padding-top: 2vw;
   padding-bottom: 2vw;
-  text-align: center;
-  z-index: 99999999; }
+  text-align: center; }
+  @media (max-width: 767px) {
+    .background .portfolio-container .photo-container, .background .portfolio-container .video-container {
+      width: 85%; } }
 
 #_ytid_66579 {
   width: 1000px; }

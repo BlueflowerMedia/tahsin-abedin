@@ -15,10 +15,6 @@
     position: relative;
     color: #fff;
     text-decoration: none;
-    //background-color: #000;
-  }
-  a:hover{
-    //color: #3399ff;
   }
 
   a:before {
@@ -69,21 +65,8 @@ a:hover:before {
   color:#ff0000;
 }
 
-.hamburger{
-  color: $white;
-}
-
-.dropdown{
-  ul{
-    li{
-      list-style-type: none;
-      a{
-        text-decoration: none;
-      }
-    }
-  }
-}
 #hamburger-9{
+  color: $white;
   @media(min-width: 800px){
     display: none;
   }
@@ -91,7 +74,7 @@ a:hover:before {
 
 //Mobile menu bar
 .dropdown{
-   position: absolute;
+   position: fixed;
    top: 0;
    left: 0;
    width: 100%;
@@ -112,9 +95,14 @@ a:hover:before {
      padding-left: 0 !important;
      li {
        color: $black;
-       font-size: 35px;
+       font-size: 30px;
+       margin: 40px 10px;
+             list-style-type: none;
        a{
          color: $black;
+         font-size: 20px;
+                 text-decoration: none;
+
        }
        a:hover{
          opacity: .8;
@@ -124,8 +112,13 @@ a:hover:before {
    }
 }
 
+#dropdown-menu > ul > li:nth-child(6) > a:nth-child(1) > i,
+#dropdown-menu > ul > li:nth-child(6) > a:nth-child(2) > i{
+  font-size: 30px;
+}
+
 #dropdown-menu > ul > li:nth-child(1){
-  padding-top: 10%;
+  padding-top: 20%;
   color: $black;
 }
 
@@ -167,7 +160,7 @@ a:hover:before {
 
 // NINE
 #hamburger-9{
-  position: relative;
+  //position: relative;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
