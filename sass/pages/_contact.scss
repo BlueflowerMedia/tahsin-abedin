@@ -10,7 +10,7 @@
     height: auto;
     z-index: -100;
     .contact-container{
-      margin: 250px 100px;
+    //  margin: 250px 100px;
     }
   }
 }
@@ -18,7 +18,7 @@
 #section-contact-forms .container {
   color: white;
   margin: 0;
-  padding: 0 auto;
+  //padding: 0 auto;
 
   h2 {
     margin-top: 40px;
@@ -90,5 +90,4 @@
   .wpcf7-submit:hover{
     background-color: #44C5E6;
   }
-
 }

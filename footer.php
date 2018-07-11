@@ -17,9 +17,9 @@
 	<footer id="colophon" class="site-footer">
     <div class="container flex-row">
       <div class="footer-left flex1">
+				<p>Site by Blueflower Media</p>
       </div>
-      <div class="footer-right flex1">
-      </div>
+
     </div>
 </footer>
 

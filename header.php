@@ -21,42 +21,38 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-
 	<header id="masthead" class="site-header">
 
-      <!-- navbar middle -->
-      <div class="nav-middle">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a>
-				<a href="<?php echo get_permalink(get_page_by_path( 'bio' )); ?>">BIO</a>
-				<a href="<?php echo get_permalink(get_page_by_path( 'portfolio' )); ?>">PORTFOLIO</a>
-				<a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>">CONTACT</a>
+    <!-- navbar middle -->
+    <div class="nav-middle">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a>
+			<a href="<?php echo get_permalink(get_page_by_path( 'bio' )); ?>">BIO</a>
+			<a href="<?php echo get_permalink(get_page_by_path( 'portfolio' )); ?>">PORTFOLIO</a>
+			<a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>">CONTACT</a>
+		</div>
 
+		<div id="dropdown-menu" class="dropdown">
+			<ul>
+			 <li ><a href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a></li>
+			 <li><a href="<?php echo get_permalink(get_page_by_path( 'bio' )); ?>">BIO</a></li>
+			 <li><a href="<?php echo get_permalink(get_page_by_path( 'portfolio' )); ?>">PORTFOLIO</a></li>
+			 <li><a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>">CONTACT</a></li>
+			 <li><a href="https://www.instagram.com/tahsinabedin"><i class="fab fa-instagram"></i></a></li>
+			 <li><a href="https://www.youtube.com/channel/UC5vR-9bNQXbpd4pjtPgewKA"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+		</div>
+		<div class="hamburger" id="hamburger-9">
+			<span class="line"></span>
+			<span class="line"></span>
+			<span class="line"></span>
+		</div>
+    <!-- navbar right -->
+    <div class="nav-right">
 
-
-			</div>
-      <!-- navbar right -->
-      <div class="nav-right">
-				<a href="https://www.instagram.com/tahsinabedin"><i class="fab fa-instagram"></i></a>
-				<a href="https://www.youtube.com/channel/UC5vR-9bNQXbpd4pjtPgewKA"><i class="fab fa-youtube"></i></a>
-				<!-- <a href="https://www.facebook.com/tmillz.bsm"><i class="fab fa-facebook-square"></i></a> -->
-      </div>
-
-			<!-- <div class="hamburger" id="hamburger-9">
-				<span class="line"></span>
-				<span class="line"></span>
-				<span class="line"></span>
-			</div>
-
-			<div id="dropdown-menu" class="dropdown">
-			  <ul>
-			   <li ><a href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a></li>
-			   <li><a href="<?php echo get_permalink(get_page_by_path( 'bio' )); ?>">BIO</a></li>
-			   <li><a href="<?php echo get_permalink(get_page_by_path( 'portfolio' )); ?>">PORTFOLIO</a></li>
-				 <li><a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>">CONTACT</a></li>
-				</ul>
-			</div> -->
+			<a href="https://www.instagram.com/tahsinabedin"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.youtube.com/channel/UC5vR-9bNQXbpd4pjtPgewKA"><i class="fab fa-youtube"></i></a>
+    </div>
 
 	</header>
-
 </div>
 </body>
