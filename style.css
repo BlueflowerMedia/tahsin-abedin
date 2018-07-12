@@ -1340,8 +1340,9 @@ button.nav-contact {
 
 .nav-middle {
   flex: 1;
-  padding: 3vw 0vw 3vw 0vw;
-  text-align: center; }
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   .nav-middle a {
     text-decoration: none;
     font-size: 1.5rem;
@@ -1349,7 +1350,8 @@ button.nav-contact {
     margin: 0 4%;
     position: relative;
     color: #fff;
-    text-decoration: none; }
+    text-decoration: none;
+    align-items: center; }
   .nav-middle a:before {
     content: "";
     position: absolute;
@@ -1372,8 +1374,11 @@ button.nav-contact {
       display: none; } }
 
 .nav-right {
-  padding: 2.2vw 5vw 3vw 0;
-  position: relative; }
+  padding: 0 5vw 0 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   .nav-right a {
     padding: 0 10px 0 0;
     font-size: 2vw; }
