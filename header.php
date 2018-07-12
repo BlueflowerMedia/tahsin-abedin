@@ -22,7 +22,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<header id="masthead" class="site-header">
-
+		
     <!-- navbar middle -->
     <div class="nav-middle">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a>

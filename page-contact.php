@@ -7,7 +7,6 @@
   </div>
 </section>
 
-
 <section id="section-contact-forms">
  <div class="container flex-row">
        <div class="contact-info flex1">

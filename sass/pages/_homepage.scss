@@ -24,9 +24,8 @@
       font-size: 6vw;
       color:#FFFFFF;
       -webkit-animation:colorchange 20s infinite alternate;
-    //  text-shadow: 0 0 10px $white;
-
     }
+    
     @-webkit-keyframes colorchange {
      0% {
        color: #F40000;
