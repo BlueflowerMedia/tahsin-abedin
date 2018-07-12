@@ -3,9 +3,29 @@
   display: flex;
 }
 
+.logo{
+  text-align: center;
+  img{
+    width: 50px;
+    margin:3vw 5vw;
+  }
+  @media (max-width: 767px){
+    margin: 0 auto;
+    flex: 1;
+  }
+}
+
+#masthead > div.logo{
+  @media(max-width: 800px){
+    flex: 1;
+    padding: 5vw 0 0 25vw;
+  }
+
+}
+
 .nav-middle{
   flex: 1;
-  padding: 3vw 0vw 3vw 15vw;
+  padding: 3vw 0vw 3vw 0vw;
   text-align: center;
   a{
     text-decoration: none;
@@ -52,9 +72,6 @@ a:hover:before {
     @media(max-width: 800px){
       display: none;
     }
-  }
-  @media(max-width: 600px){
-        padding: 2.2vw 3vw 3vw 0;
   }
 }
 #masthead > div.nav-right > a:nth-child(1):hover{
