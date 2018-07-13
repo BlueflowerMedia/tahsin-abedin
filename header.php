@@ -23,7 +23,7 @@
 <div id="page" class="site">
 	<header id="masthead" class="site-header">
 		<div class="logo">
-			<a href="#" class="responsive"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo"></a>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="responsive"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo"></a>
 		</div>
     <!-- navbar middle -->
     <div class="nav-middle">

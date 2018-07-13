@@ -1326,12 +1326,16 @@ button.nav-contact {
 .logo {
   text-align: center; }
   .logo img {
-    width: 50px;
+    width: 80px;
     margin: 3vw 5vw; }
-  @media (max-width: 767px) {
+    @media (max-width: 800px) {
+      .logo img {
+        width: 50px; } }
+  @media (max-width: 800px) {
     .logo {
       margin: 0 auto;
-      flex: 1; } }
+      flex: 1;
+      width: 50px; } }
 
 @media (max-width: 800px) {
   #masthead > div.logo {
