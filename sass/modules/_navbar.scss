@@ -6,9 +6,9 @@
 .logo{
   text-align: center;
   img{
-    width: 80px;
+    width: 70px;
     margin:1vw 5vw;
-    @media (max-width: 800px){
+    @media(max-width: 420px){
       width: 50px;
     }
   }
@@ -16,12 +16,6 @@
     margin: 0 auto;
     flex: 1;
     width: 50px;
-  }
-}
-
-#masthead > div.logo{
-  @media(max-width: 800px){
-    flex: 1;
     padding: 5vw 0 0 25vw;
   }
 }
@@ -32,6 +26,7 @@
   justify-content: center;
   align-items: center;
   a{
+    font-size: 1.2rem;
     text-decoration: none;
     padding: 0 1%;
     margin: 0 4%;
@@ -60,7 +55,6 @@ a:hover:before {
   -webkit-transform: scaleX(.9);
   transform: scaleX(.9);
 }
-
   @media screen and (max-width: 800px){
     display: none;
   }
@@ -75,10 +69,9 @@ a:hover:before {
   a{
     padding: 0 10px 0 0;
     font-size: 1.5vw;
-
-    @media(max-width: 800px){
-      display: none;
-    }
+  }
+  @media(max-width: 800px){
+    display: none;
   }
 }
 #masthead > div.nav-right > a:nth-child(1):hover{
@@ -110,17 +103,14 @@ a:hover:before {
   opacity: .95;
   z-index: 9999;
 
- ul, ol {
-     margin: 0 0 0 0 !important;
- }
-
  ul{
    list-style-type: none;
    padding-left: 0 !important;
+   margin: 0 0 0 0 !important;
    li {
      color: $black;
      font-size: 30px;
-     margin: 40px 10px;
+     margin: 20px 10px;
      list-style-type: none;
      a{
        color: $black;
@@ -198,20 +188,20 @@ a:hover:before {
 }
 
 #hamburger-9:before{
-  content: "";
-  position: absolute;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 50px;
-  height: 50px;
-  border: 4px solid transparent;
-  top: calc(50% - 25px);
-  left: calc(50% - 25px);
-  border-radius: 100%;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  // content: "";
+  // position: absolute;
+  // -webkit-box-sizing: border-box;
+  // -moz-box-sizing: border-box;
+  // box-sizing: border-box;
+  // width: 50px;
+  // height: 50px;
+  //border: 4px solid transparent;
+  // top: calc(50% - 23px);
+  // left: calc(50% - 27px);
+  // border-radius: 100%;
+  // -webkit-transition: all 0.3s ease-in-out;
+  // -o-transition: all 0.3s ease-in-out;
+  // transition: all 0.3s ease-in-out;
 }
 
 #hamburger-9.is-active:before{

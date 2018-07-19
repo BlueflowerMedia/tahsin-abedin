@@ -1326,21 +1326,17 @@ button.nav-contact {
 .logo {
   text-align: center; }
   .logo img {
-    width: 80px;
+    width: 70px;
     margin: 1vw 5vw; }
-    @media (max-width: 800px) {
+    @media (max-width: 420px) {
       .logo img {
         width: 50px; } }
   @media (max-width: 800px) {
     .logo {
       margin: 0 auto;
       flex: 1;
-      width: 50px; } }
-
-@media (max-width: 800px) {
-  #masthead > div.logo {
-    flex: 1;
-    padding: 5vw 0 0 25vw; } }
+      width: 50px;
+      padding: 5vw 0 0 25vw; } }
 
 .nav-middle {
   flex: 1;
@@ -1348,6 +1344,7 @@ button.nav-contact {
   justify-content: center;
   align-items: center; }
   .nav-middle a {
+    font-size: 1.2rem;
     text-decoration: none;
     padding: 0 1%;
     margin: 0 4%;
@@ -1384,9 +1381,9 @@ button.nav-contact {
   .nav-right a {
     padding: 0 10px 0 0;
     font-size: 1.5vw; }
-    @media (max-width: 800px) {
-      .nav-right a {
-        display: none; } }
+  @media (max-width: 800px) {
+    .nav-right {
+      display: none; } }
 
 #masthead > div.nav-right > a:nth-child(1):hover {
   color: #3FA9F5; }
@@ -1412,23 +1409,22 @@ button.nav-contact {
   background-color: #fff;
   opacity: .95;
   z-index: 9999; }
-  .dropdown ul, .dropdown ol {
-    margin: 0 0 0 0 !important; }
   .dropdown ul {
     list-style-type: none;
-    padding-left: 0 !important; }
+    padding-left: 0 !important;
+    margin: 0 0 0 0 !important; }
     .dropdown ul li {
-      color: #2a2a2a;
+      color: #282828;
       font-size: 30px;
-      margin: 40px 10px;
+      margin: 20px 10px;
       list-style-type: none; }
       .dropdown ul li a {
-        color: #2a2a2a;
+        color: #282828;
         font-size: 20px;
         text-decoration: none; }
       .dropdown ul li a:hover {
         opacity: .8;
-        text-shadow: 1px 1px 2px #fff, 0 0 25px #2a2a2a; }
+        text-shadow: 1px 1px 2px #fff, 0 0 25px #282828; }
 
 #dropdown-menu > ul > li:nth-child(6) > a:nth-child(1) > i,
 #dropdown-menu > ul > li:nth-child(6) > a:nth-child(2) > i {
@@ -1436,7 +1432,7 @@ button.nav-contact {
 
 #dropdown-menu > ul > li:nth-child(1) {
   padding-top: 20%;
-  color: #2a2a2a; }
+  color: #282828; }
 
 .drop {
   transform: translateY(0); }
@@ -1481,28 +1477,12 @@ button.nav-contact {
   transform: rotate(45deg);
   z-index: 99999; }
 
-#hamburger-9:before {
-  content: "";
-  position: absolute;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 50px;
-  height: 50px;
-  border: 4px solid transparent;
-  top: calc(50% - 25px);
-  left: calc(50% - 25px);
-  border-radius: 100%;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
-
 #hamburger-9.is-active:before {
   border: 4px solid #000000; }
 
 #hamburger-9.is-active .line {
   width: 35px;
-  background-color: #2a2a2a; }
+  background-color: #282828; }
 
 #hamburger-9.is-active .line:nth-child(2) {
   opacity: 0; }
@@ -1512,14 +1492,14 @@ button.nav-contact {
   -ms-transform: translateY(9px);
   -o-transform: translateY(9px);
   transform: translateY(9px);
-  background-color: #2a2a2a; }
+  background-color: #282828; }
 
 #hamburger-9.is-active .line:nth-child(3) {
   -webkit-transform: translateY(-9px) rotate(90deg);
   -ms-transform: translateY(-9px) rotate(90deg);
   -o-transform: translateY(-9px) rotate(90deg);
   transform: translateY(-9px) rotate(90deg);
-  background-color: #2a2a2a; }
+  background-color: #282828; }
 
 .footer-left p {
   opacity: .2;
@@ -1535,13 +1515,15 @@ button.nav-contact {
 #video-background {
   /*  making the video fullscreen  */
   position: fixed;
+  top: 0;
   right: 0;
-  bottom: 0;
   min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
-  z-index: -100; }
+  z-index: -100;
+  background-size: cover;
+  position: fixed; }
 
 .homepage-container {
   flex-wrap: wrap;
@@ -1549,8 +1531,7 @@ button.nav-contact {
   width: 70%;
   margin: 0 auto 0vw auto;
   max-width: 1200px;
-  padding-top: 15vw;
-  padding-bottom: 5vw;
+  padding-top: 12vw;
   text-align: center; }
   .homepage-container .homepage-top h1 {
     font-size: 6vw;
@@ -1609,7 +1590,7 @@ button.nav-contact {
           line-height: 3vw; }
       .homepage-container .homepage-bottom a {
         font-size: 2.5vw;
-        padding: 0 15px;
+        padding: 5px 12px;
         margin: 0 4px; } }
   @media (max-width: 415px) {
     .homepage-container {
@@ -1663,61 +1644,56 @@ button.nav-contact {
       .bg-image .bio-content .right {
         display: none; } }
 
-#section-contact-forms .container {
-  color: white;
-  margin: 0;
-  padding-top: 200px;
-  background-color: #2a2a2a; }
-  #section-contact-forms .container h2 {
-    margin-top: 40px; }
-    @media (max-width: 600px) {
-      #section-contact-forms .container h2 {
-        margin-top: 20px; } }
-  #section-contact-forms .container .contact-info i {
-    font-size: 2rem; }
-  #section-contact-forms .container .contact-info p {
-    font-size: 2rem;
+#section-contact-forms .contact-container {
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 140px;
+  background-color: #282828;
+  display: flex;
+  flex-wrap: wrap; }
+  @media (max-width: 500px) {
+    #section-contact-forms .contact-container {
+      padding-top: 50px; } }
+  #section-contact-forms .contact-container .contact-info p {
+    font-size: 1.3rem;
     font-family: "Raleway", sans-serif; }
-  #section-contact-forms .container .one-row {
+  #section-contact-forms .contact-container .forms .one-row {
     display: flex;
     flex-flow: row wrap; }
-    #section-contact-forms .container .one-row .one-half {
+    #section-contact-forms .contact-container .forms .one-row .one-half {
       flex: 1;
       margin: 10px 0px; }
-    #section-contact-forms .container .one-row .first {
+    #section-contact-forms .contact-container .forms .one-row .first {
       margin-right: 30px; }
-      @media (max-width: 1100px) {
-        #section-contact-forms .container .one-row .first {
+      @media (max-width: 1500px) {
+        #section-contact-forms .contact-container .forms .one-row .first {
           margin-right: 0px;
           flex: 1; } }
-  #section-contact-forms .container .forms input {
+  #section-contact-forms .contact-container .forms input {
     min-width: 100%;
     border-radius: 0;
     border-color: #44C5E6;
     font-family: "Raleway", sans-serif;
-    padding: .6vw; }
-  #section-contact-forms .container .wpcf7-textarea {
+    padding: .3vw; }
+  #section-contact-forms .contact-container .forms .wpcf7-textarea {
     border-radius: 0;
     border-color: #44C5E6;
-    padding: .6vw;
+    padding: .3vw;
     font-family: "Raleway", sans-serif; }
-  #section-contact-forms .container #wpcf7-f99-o1 > form > div:nth-child(3) > span > input {
+  #section-contact-forms .contact-container .forms #wpcf7-f99-o1 > form > div:nth-child(3) > span > input {
     margin-top: 10px; }
-  #section-contact-forms .container #wpcf7-f99-o1 > form > div:nth-child(3) > div > p:nth-child(1) {
+  #section-contact-forms .contact-container .forms #wpcf7-f99-o1 > form > div:nth-child(3) > div > p:nth-child(1) {
     margin: 0 0 !important; }
-  #section-contact-forms .container .wpcf7-submit {
+  #section-contact-forms .contact-container .forms .wpcf7-submit {
     background-color: #fff;
     font-size: 1.5rem;
     border: none;
     width: 10vw;
     font-family: "Raleway", sans-serif;
-    padding: 1vw;
+    padding: .6vw;
     outline: none; }
-    @media screen and (max-width: 600px) {
-      #section-contact-forms .container .wpcf7-submit {
-        width: 27vw;
-        border-radius: 30px; } }
-  #section-contact-forms .container .wpcf7-submit:hover {
+  #section-contact-forms .contact-container .forms .wpcf7-submit:hover {
     background-color: #44C5E6; }
 
 .background .portfolio-container h2 {

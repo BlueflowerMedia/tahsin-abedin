@@ -1,77 +1,71 @@
 
-#section-contact-forms .container {
-  color: white;
-  margin: 0;
-  padding-top: 200px;
+#section-contact-forms .contact-container {
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 140px;
   background-color: $black;
-
-  h2 {
-    margin-top: 40px;
-    @media (max-width: 600px){
-      margin-top: 20px;
-    }
+  display: flex;
+  flex-wrap: wrap;
+  @media(max-width: 500px){
+    padding-top: 50px;
   }
-  .contact-info {
-    i {
-      font-size: 2rem;
-    }
 
+  .contact-info {
     p {
-      font-size: 2rem;
+      font-size: 1.3rem;
       font-family: $font-secondary;
     }
   }
 
-  .one-row {
-    display: flex;
-    flex-flow: row wrap;
+  .forms{
+    .one-row {
+      display: flex;
+      flex-flow: row wrap;
 
-    .one-half {
-      flex: 1;
-      margin: 10px 0px;
-    }
-    .first{
-      margin-right: 30px;
-      @media (max-width: 1100px){
-        margin-right: 0px;
+      .one-half {
         flex: 1;
+        margin: 10px 0px;
       }
+      .first{
+        margin-right: 30px;
+        @media (max-width: 1500px){
+          margin-right: 0px;
+          flex: 1;
+        }
+      }
+   }
+    input {
+      min-width: 100%;
+      border-radius: 0;
+      border-color: #44C5E6;
+      font-family: $font-secondary;
+      padding: .3vw;
     }
- }
-  .forms input {
-    min-width: 100%;
-    border-radius: 0;
-    border-color: #44C5E6;
-    font-family: $font-secondary;
-    padding: .6vw;
-  }
-  .wpcf7-textarea{
-    border-radius: 0;
-    border-color: #44C5E6;
-    padding: .6vw;
-    font-family: $font-secondary;
+    .wpcf7-textarea{
+      border-radius: 0;
+      border-color: #44C5E6;
+      padding: .3vw;
+      font-family: $font-secondary;
 
-  }
-#wpcf7-f99-o1 > form > div:nth-child(3) > span > input{
-  margin-top: 10px;
-}
-  #wpcf7-f99-o1 > form > div:nth-child(3) > div > p:nth-child(1){
-        margin: 0 0 !important;
-  }
-  .wpcf7-submit {
-    background-color: #fff;
-    font-size: 1.5rem;
-    border: none;
-    width: 10vw;
-    font-family: $font-secondary;
-    padding: 1vw;
-    outline: none;
-    @media screen and (max-width: 600px){
-      width: 27vw;
-      border-radius: 30px;
     }
+  #wpcf7-f99-o1 > form > div:nth-child(3) > span > input{
+    margin-top: 10px;
   }
-  .wpcf7-submit:hover{
-    background-color: #44C5E6;
+    #wpcf7-f99-o1 > form > div:nth-child(3) > div > p:nth-child(1){
+          margin: 0 0 !important;
+    }
+    .wpcf7-submit {
+      background-color: #fff;
+      font-size: 1.5rem;
+      border: none;
+      width: 10vw;
+      font-family: $font-secondary;
+      padding: .6vw;
+      outline: none;
+    }
+    .wpcf7-submit:hover{
+      background-color: #44C5E6;
+    }
   }
 }
