@@ -1,13 +1,11 @@
 <?php get_header(); ?>
 
-
 <!-- homepage -->
 <video autoplay loop id="video-background" muted plays-inline>
   <source src="<?php echo get_template_directory_uri(); ?>/images/video.mp4" type="video/mp4">
 
     <!-- <source src="\images\video.mp4" type="video/mp4"> -->
 </video>
-
 
 <section id="home">
   <div class="homepage-container">

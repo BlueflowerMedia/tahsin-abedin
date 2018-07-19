@@ -1,12 +1,5 @@
 <?php get_header(); ?>
 
-<section class="contact">
-  <div class="image-bg">
-    <div class="contact-container">
-    </div>
-  </div>
-</section>
-
 <section id="section-contact-forms">
  <div class="container flex-row">
        <div class="contact-info flex1">

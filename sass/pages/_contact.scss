@@ -1,24 +1,9 @@
-.contact{
-  .image-bg{
-    background-image: url("./images/image-bg.png");
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    .contact-container{
-    //  margin: 250px 100px;
-    }
-  }
-}
 
 #section-contact-forms .container {
   color: white;
   margin: 0;
-  //padding: 0 auto;
+  padding-top: 200px;
+  background-color: $black;
 
   h2 {
     margin-top: 40px;
@@ -54,7 +39,6 @@
     }
  }
   .forms input {
-    //margin: 4px;
     min-width: 100%;
     border-radius: 0;
     border-color: #44C5E6;

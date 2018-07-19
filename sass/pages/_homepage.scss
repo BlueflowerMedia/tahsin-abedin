@@ -16,8 +16,8 @@
   width: 70%;
   margin: 0 auto 0vw auto;
   max-width: 1200px;
-  padding-top: 10vw;
-  padding-bottom: 7vw;
+  padding-top: 15vw;
+  padding-bottom: 5vw;
   text-align: center;
   .homepage-top{
     h1{
@@ -25,7 +25,7 @@
       color:#FFFFFF;
       -webkit-animation:colorchange 20s infinite alternate;
     }
-    
+
     @-webkit-keyframes colorchange {
      0% {
        color: #F40000;

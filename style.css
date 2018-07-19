@@ -1,5 +1,5 @@
 /*!
-Theme Name: blueflowermedia
+Theme Name: tahsin-abedin
 Theme URI: http://underscores.me/
 Author: Blueflowermedia
 Author URI: http://www.blueflowermedia.com
@@ -1320,14 +1320,14 @@ button.nav-contact {
     background: white; }
 
 #masthead {
-  height: auto;
+  height: 100px;
   display: flex; }
 
 .logo {
   text-align: center; }
   .logo img {
     width: 80px;
-    margin: 3vw 5vw; }
+    margin: 1vw 5vw; }
     @media (max-width: 800px) {
       .logo img {
         width: 50px; } }
@@ -1349,11 +1349,9 @@ button.nav-contact {
   align-items: center; }
   .nav-middle a {
     text-decoration: none;
-    font-size: 1.5rem;
     padding: 0 1%;
     margin: 0 4%;
     position: relative;
-    color: #fff;
     text-decoration: none;
     align-items: center; }
   .nav-middle a:before {
@@ -1385,7 +1383,7 @@ button.nav-contact {
   align-items: center; }
   .nav-right a {
     padding: 0 10px 0 0;
-    font-size: 2vw; }
+    font-size: 1.5vw; }
     @media (max-width: 800px) {
       .nav-right a {
         display: none; } }
@@ -1525,16 +1523,11 @@ button.nav-contact {
 
 .footer-left p {
   opacity: .2;
-  text-align: center;
-  padding: 0 !important;
-  position: fixed;
+  position: absolute;
+  left: 0;
   bottom: 0;
-  width: 300px;
-  height: 25px;
-  bottom: 0px;
-  right: 25%;
-  left: 50%;
-  margin-left: -150px; }
+  width: 100%;
+  text-align: center; }
 
 #colophon > div {
   padding: 0 !important; }
@@ -1556,8 +1549,8 @@ button.nav-contact {
   width: 70%;
   margin: 0 auto 0vw auto;
   max-width: 1200px;
-  padding-top: 10vw;
-  padding-bottom: 7vw;
+  padding-top: 15vw;
+  padding-bottom: 5vw;
   text-align: center; }
   .homepage-container .homepage-top h1 {
     font-size: 6vw;
@@ -1643,47 +1636,38 @@ button.nav-contact {
   z-index: -100;
   background-size: cover;
   background-position: 70% 100%; }
-
-.bio-content {
-  display: flex;
-  max-width: 1600px;
-  width: 80%;
-  text-align: left;
-  margin: 0 auto; }
-  .bio-content .left {
-    flex: 1;
-    padding: 200px 0px; }
-    .bio-content .left p {
-      color: #fff;
-      text-align: justify;
-      margin-top: 200px; }
-      @media (max-width: 415px) {
-        .bio-content .left p {
-          margin-top: 100px;
-          font-size: 12px; } }
-  .bio-content .right {
-    flex: 2; }
-  @media (max-width: 1000px) {
-    .bio-content .right {
-      flex: 1; } }
-  @media (max-width: 600px) {
-    .bio-content .right {
-      display: none; } }
-
-.contact .image-bg {
-  background-image: url("./images/image-bg.png");
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100; }
+  .bg-image .bio-content {
+    display: flex;
+    max-width: 1600px;
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+    padding: 1vw; }
+    .bg-image .bio-content .left {
+      flex: 1;
+      padding: 200px 0px; }
+      .bg-image .bio-content .left p {
+        color: #fff;
+        text-align: justify;
+        margin-top: 200px; }
+        @media (max-width: 415px) {
+          .bg-image .bio-content .left p {
+            margin-top: 100px;
+            font-size: 12px; } }
+    .bg-image .bio-content .right {
+      flex: 2; }
+    @media (max-width: 1000px) {
+      .bg-image .bio-content .right {
+        flex: 1; } }
+    @media (max-width: 600px) {
+      .bg-image .bio-content .right {
+        display: none; } }
 
 #section-contact-forms .container {
   color: white;
-  margin: 0; }
+  margin: 0;
+  padding-top: 200px;
+  background-color: #2a2a2a; }
   #section-contact-forms .container h2 {
     margin-top: 40px; }
     @media (max-width: 600px) {

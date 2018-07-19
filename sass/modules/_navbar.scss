@@ -1,5 +1,5 @@
 #masthead{
-  height: auto;
+  height: 100px;
   display: flex;
 }
 
@@ -7,7 +7,7 @@
   text-align: center;
   img{
     width: 80px;
-    margin:3vw 5vw;
+    margin:1vw 5vw;
     @media (max-width: 800px){
       width: 50px;
     }
@@ -33,11 +33,9 @@
   align-items: center;
   a{
     text-decoration: none;
-    font-size: 1.5rem;
     padding: 0 1%;
     margin: 0 4%;
     position: relative;
-    color: #fff;
     text-decoration: none;
     align-items: center;
   }
@@ -76,7 +74,7 @@ a:hover:before {
     align-items: center;
   a{
     padding: 0 10px 0 0;
-    font-size: 2vw;
+    font-size: 1.5vw;
 
     @media(max-width: 800px){
       display: none;
