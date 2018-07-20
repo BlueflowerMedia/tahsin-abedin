@@ -5,7 +5,7 @@
 
 			<div class="photo-container">
 				<h2>PHOTOGRAPHY</h2>
-				<?php echo do_shortcode('[envira-gallery id="64"]') ?>
+				<?php echo do_shortcode('[envira-gallery id="45"]') ?>
 			</div>
 
 			<div class="video-container">
