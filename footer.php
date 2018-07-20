@@ -17,7 +17,7 @@
 	<footer id="colophon" class="site-footer">
     <div class="container flex-row">
       <div class="footer-left flex1">
-				<p>Created by <?php Echo "<a href=https://www.blueflowermedia.com/>Blueflower Media</a>" ?> </p>
+				<!-- <p>Created by <?php Echo "<a href=https://www.blueflowermedia.com/>Blueflower Media</a>" ?> </p> -->
       </div>
 
     </div>

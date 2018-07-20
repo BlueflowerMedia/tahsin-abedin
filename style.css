@@ -1604,6 +1604,16 @@ button.nav-contact {
         .homepage-container .homepage-middle p {
           font-size: 3.5vw;
           line-height: 4.2vw; } }
+  .homepage-container .page-footer p {
+    position: absolute;
+    opacity: .2;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: none; }
+    .homepage-container .page-footer p a {
+      text-decoration: none; }
 
 .bg-image {
   background-image: url("./images/Free.jpg");
@@ -1642,6 +1652,16 @@ button.nav-contact {
   @media (max-width: 600px) {
     .bio-container .right {
       display: none; } }
+
+.page-footer p {
+  position: absolute;
+  opacity: .2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center; }
+  .page-footer p a {
+    text-decoration: none; }
 
 #section-contact-forms .contact-container {
   justify-content: space-between;
@@ -1695,6 +1715,23 @@ button.nav-contact {
   #section-contact-forms .contact-container .forms .wpcf7-submit:hover {
     background-color: #44C5E6; }
 
+.page-footer p {
+  position: sticky;
+  opacity: .2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  text-decoration: none; }
+  .page-footer p a {
+    text-decoration: none; }
+
+#section-contact-forms > div > div.contact-info.flex1 > p:nth-child(3) {
+  margin-top: 150px; }
+  @media (max-width: 600px) {
+    #section-contact-forms > div > div.contact-info.flex1 > p:nth-child(3) {
+      margin-top: 40px; } }
+
 .background .portfolio-container h2 {
   margin: 3vw 0 !important; }
   @media (max-width: 450px) {
@@ -1712,3 +1749,13 @@ button.nav-contact {
   @media (max-width: 767px) {
     .background .portfolio-container .photo-container, .background .portfolio-container .video-container {
       width: 85%; } }
+.background .portfolio-container .page-footer p {
+  position: sticky;
+  opacity: .2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  text-decoration: none; }
+  .background .portfolio-container .page-footer p a {
+    text-decoration: none; }

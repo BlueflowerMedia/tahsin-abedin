@@ -3,7 +3,7 @@
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
-  padding:7vw 1vw; 
+  padding:7vw 1vw;
   background-color: $black;
   display: flex;
   flex-wrap: wrap;
@@ -17,6 +17,7 @@
       font-family: $font-secondary;
     }
   }
+
 
   .forms{
     .one-row {
@@ -67,5 +68,26 @@
     .wpcf7-submit:hover{
       background-color: #44C5E6;
     }
+  }
+}
+.page-footer{
+  p{
+    position: sticky;
+    opacity: .2;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    a{
+      text-decoration: none;
+    }
+  }
+}
+
+#section-contact-forms > div > div.contact-info.flex1 > p:nth-child(3){
+  margin-top: 150px;
+  @media (max-width: 600px){
+    margin-top: 40px;
   }
 }

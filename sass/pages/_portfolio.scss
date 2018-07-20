@@ -20,5 +20,19 @@
         width: 85%;
       }
     }
+    .page-footer{
+      p{
+        position: sticky;
+        opacity: .2;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        a{
+          text-decoration: none;
+        }
+      }
+    }
   }
 }

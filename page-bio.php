@@ -17,6 +17,9 @@
       </div>
       <div class="right"></div>
     </div>
+    <div class="page-footer">
+      <p>Created by <?php Echo "<a href=https://www.blueflowermedia.com/>Blueflower Media</a>" ?> </p>
+    </div>
 </section>
 
 <?php get_footer(); ?>

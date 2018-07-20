@@ -12,6 +12,9 @@
 				<h2>VIDEOGRAPHY</h2>
 				<?php echo do_shortcode('[embedyt] https://www.youtube.com/embed?listType=playlist&list=UU5vR-9bNQXbpd4pjtPgewKA&layout=gallery[/embedyt]') ?>
 			</div>
+			<div class="page-footer">
+				<p>Created by <?php Echo "<a href=https://www.blueflowermedia.com/>Blueflower Media</a>" ?> </p>
+			</div>
 		</div>
 	</div>
 </section>
