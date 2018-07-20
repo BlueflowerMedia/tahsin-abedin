@@ -17,7 +17,7 @@
       </div>
       <div class="right"></div>
     </div>
-    <div class="page-footer">
+    <div class="bio-footer">
       <p>Created by <?php Echo "<a href=https://www.blueflowermedia.com/>Blueflower Media</a>" ?> </p>
     </div>
 </section>

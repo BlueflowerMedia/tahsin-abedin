@@ -1653,14 +1653,14 @@ button.nav-contact {
     .bio-container .right {
       display: none; } }
 
-.page-footer p {
+.bio-footer p {
   position: absolute;
   opacity: .2;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center; }
-  .page-footer p a {
+  .bio-footer p a {
     text-decoration: none; }
 
 #section-contact-forms .contact-container {
